@@ -7,4 +7,4 @@ UPDATE 1: This small project has RickRolled 23,440 people and counting as of Jan
 
 UPDATE 2 (Feb. 4th, 2022): Now with 1080p60 resolution (Issue [#1][i1])
 
-[i1]: https://github.com/SatteredDisk/rickroll/issues/1
+[i1]: https://github.com/ShatteredDisk/rickroll/issues/1
