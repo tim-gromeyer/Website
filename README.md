@@ -1,7 +1,13 @@
 # Rickroll
 A website with Never Gonna Give You Up that can be used to rickroll your friends.
 
-Find it here: https://rebrand.ly/r1ckr0l13r
+# IMPORTANT
+**May be broken, please report if it does not autoplay**
+
+# Current Rickrolls: 40,328
+## (Last checked on 5/21/22)
+
+**Find it here: https://rebrand.ly/r1ckr0l13r**
 
 UPDATE 1: This small project has RickRolled 23,440 people and counting as of Jan. 31st, 2022!
 
