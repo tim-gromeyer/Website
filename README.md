@@ -1,5 +1,5 @@
 # Rickroll
-A website with Never Gonna Give You Up that can be used to rickroll your friends.
+A website with the auto-playing song "Never Gonna Give You Up" that can be used to rickroll your friends.
 
 # IMPORTANT
 **Code was just recently changed to allow for forks to function correctly, please refork/update your code.**
