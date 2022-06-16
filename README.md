@@ -4,8 +4,8 @@ A website with Never Gonna Give You Up that can be used to rickroll your friends
 # IMPORTANT
 **Code was just recently changed to allow for forks to function correctly, please refork/update your code.**
 
-# Current Rickrolls: 40,328
-### (Last checked on 5/21/22)
+# Current Rickrolls: 44,296
+### (Last checked on 6/16/22)
 
 **Find it here: https://rebrand.ly/r1ckr0l13r**
 
