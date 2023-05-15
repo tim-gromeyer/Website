@@ -3,22 +3,79 @@
 <head>
     <title>My Awesome Website</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            transition: background-color 0.5s ease;
+        }
+
+        h1 {
+            color: #333333;
+        }
+
+        p {
+            color: #666666;
+        }
+
+        #gif-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
         #gif {
             display: none;
+        }
+
+        .dark-mode {
+            background-color: #222222;
+            color: #ffffff;
+        }
+
+        .dark-mode h1 {
+            color: #ffffff;
+        }
+
+        .dark-mode p {
+            color: #cccccc;
         }
     </style>
 </head>
 <body onload="playRickRoll()">
-    <h1>Welcome to My Awesome Rick Roll!</h1>
+    <h1>Welcome to My Awesome Website!</h1>
     <p>Prepare yourself for an epic surprise!</p>
-    <img id="gif" src="nice.gif" alt="Rick Roll GIF">
+    <div id="gif-container">
+        <img id="gif" src="nice.gif" alt="Rick Roll GIF">
+    </div>
     
-    <audio id="rickRollAudio" src="sound.mp3" allow="autoplay"></audio>
+    <iframe src="silence.mp3" allow="autoplay" id="silence" style="display: none"></iframe>
+    <audio id="rickRollAudio" loop>
+        <source src="sound.mp3" type="audio/mp3">
+    </audio>
+    
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <button onclick="playMusic()">Play Music</button>
+    <button onclick="stopMusic()">Stop Music</button>
     
     <script>
+        var audio = document.getElementById("rickRollAudio");
+
         function playRickRoll() {
             document.getElementById("gif").style.display = "block";
-            document.getElementById("rickRollAudio").play();
+            playMusic();
+        }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+
+        function playMusic() {
+            audio.play();
+        }
+
+        function stopMusic() {
+            audio.pause();
+            audio.currentTime = 0;
         }
     </script>
 </body>
