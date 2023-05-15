@@ -59,6 +59,7 @@
     
     <script>
         var audio = document.getElementById("rickRollAudio");
+        var prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
         function playRickRoll() {
             document.getElementById("gif").style.display = "block";
@@ -76,6 +77,11 @@
         function stopMusic() {
             audio.pause();
             audio.currentTime = 0;
+        }
+
+        // Set initial dark mode based on user preference
+        if (prefersDarkMode) {
+            document.body.classList.add("dark-mode");
         }
     </script>
 </body>
