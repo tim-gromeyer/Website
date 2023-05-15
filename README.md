@@ -1,6 +1,7 @@
-# [Rickroll](https://v.ht/MarkdownEdit)
-A website with the auto-playing song "Never Gonna Give You Up" that can be used to rickroll your friends.
+# My Awesome Website
 
-# Stats: <https://v.ht/MarkdownEdit~>
+Welcome to My Awesome Website! This website is designed to bring you a special surprise. Click the button below for an amazing experience.
 
-**Find it here: <https://v.ht/MarkdownEdit>**
+[Click Me!](https://tim-gromeyer.github.io/Website/)
+
+Please note: You might want to have your volume turned up for the full effect! Enjoy!
