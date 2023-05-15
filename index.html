@@ -1,33 +1,17 @@
 <!DOCTYPE html>
 <html>
-   <body>
-       <video autoplay loop width="100%">
+<head>
+    <title>My Awesome Website</title>
+</head>
+<body>
+    <h1>Welcome to My Awesome Website!</h1>
+    <p>Click the button below for an amazing surprise!</p>
+    <button onclick="rickRoll()">Click Me!</button>
 
-    <source src="rickroll.mp4"
-            type="video/mp4">
-
-    Sorry, your browser doesn't support embedded videos.
-</video>
-      <script>
-         // Change the variables below to your liking
-         const currentURL = "rickroll.mp4";
-         const pageTitle = "Loading...";
-         // End of changable variables
-         
-         function setTitle() {
-            document.title = pageTitle;
-         }
-         
-         function redirect() {
-            window.location.href = currentURL;
-         }
-         
-         function onload() {
-            setTitle();
-            redirect();
-         }
-         
-         window.onload = onload();
-       </script>
-   </body>
+    <script>
+        function rickRoll() {
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }
+    </script>
+</body>
 </html>
