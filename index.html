@@ -2,15 +2,23 @@
 <html>
 <head>
     <title>My Awesome Website</title>
+    <style>
+        #gif {
+            display: none;
+        }
+    </style>
 </head>
-<body>
-    <h1>Welcome to My Awesome Website!</h1>
-    <p>Click the button below for an amazing surprise!</p>
-    <button onclick="rickRoll()">Click Me!</button>
-
+<body onload="playRickRoll()">
+    <h1>Welcome to My Awesome Rick Roll!</h1>
+    <p>Prepare yourself for an epic surprise!</p>
+    <img id="gif" src="nice.gif" alt="Rick Roll GIF">
+    
+    <audio id="rickRollAudio" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" allow="autoplay"></audio>
+    
     <script>
-        function rickRoll() {
-            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        function playRickRoll() {
+            document.getElementById("gif").style.display = "block";
+            document.getElementById("rickRollAudio").play();
         }
     </script>
 </body>
