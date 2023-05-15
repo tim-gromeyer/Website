@@ -20,6 +20,27 @@
             color: #666666;
         }
 
+        /* Add these styles for the buttons */
+        button {
+            background-color: #ffffff;
+            color: #333333;
+            border: 2px solid #333333;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
         #gif-container {
             display: flex;
             justify-content: center;
@@ -41,6 +62,18 @@
 
         .dark-mode p {
             color: #cccccc;
+        }
+
+        /* Styles for dark mode */
+        .dark-mode button {
+            background-color: #333333;
+            color: #ffffff;
+            border-color: #ffffff;
+        }
+
+        .dark-mode button:hover {
+            background-color: #ffffff;
+            color: #333333;
         }
     </style>
 </head>
