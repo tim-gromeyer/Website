@@ -50,16 +50,15 @@
     <div id="gif-container">
         <img id="gif" src="nice.gif" alt="Rick Roll GIF">
     </div>
-    
-    <iframe src="silence.mp3" allow="autoplay" id="silence" style="display: none"></iframe>
+
     <audio id="rickRollAudio" loop>
         <source src="sound.mp3" type="audio/mp3">
     </audio>
-    
+
     <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
     <button onclick="playMusic()">Play Music</button>
     <button onclick="stopMusic()">Stop Music</button>
-    
+
     <script>
         var audio = document.getElementById("rickRollAudio");
         var prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
